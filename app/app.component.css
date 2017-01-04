@@ -1,0 +1,15 @@
+img{
+    height:100px;
+}
+
+.text{
+    display:inline;
+    font-family: Corbel;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blueText{
+    color:deepskyblue;
+    display:inline;
+}

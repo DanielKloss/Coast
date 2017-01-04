@@ -1,0 +1,43 @@
+<div class="container">
+        <div class="row">
+                <div class="col-md-2">
+                        <img src="app/assets/images/imperial-college-london-logo.png" />
+                </div>
+                <div class="col-md-2">
+                        <img src="app/assets/images/kenya-medical-research-institute-logo.png" />
+                </div>
+                <div class="col-md-4">
+                        <img src="app/assets/images/coast-logo.png" />
+                </div>
+                <div class="col-md-2">
+                        <img src="app/assets/images/uganda-medical-research-logo.png" />
+                </div>
+                <div class="col-md-2">
+                        <img src="app/assets/images/icnarc-logo.jpg" />
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                        <div class="text">
+                                <p class="blueText">C</p>hildren's
+                                <p class="blueText">O</p>xygen
+                                <p class="blueText">A</p>dministration
+                                <p class="blueText">S</p>trategies
+                                <p class="blueText">T</p>rial :
+                                <p class="blueText">COAST</p>
+                        </div>
+                </div>
+        </div>
+
+        <nav class='navbar navbar-inverse'>
+                <div class='container-fluid'>
+                        <ul class='nav navbar-nav'>
+                                <li><a [routerLink]="['/welcome']">Home</a></li>
+                                <li><a [routerLink]="['/trailSummary']">Trail Summary</a></li>
+                                <li><a [routerLink]="['/trainingFilms']">Training Films</a></li>
+                        </ul>
+                </div>
+        </nav>
+        <router-outlet></router-outlet>
+</div>
