@@ -1,7 +1,10 @@
-<div class="page-header">
-  <h1>{{trainingFilm.title}}</h1>
+<div class='panel panel-info'>
+  <div class='panel-heading'>
+      {{trainingFilm.title}}
+  </div>
+  <div class='panel-body'>
+    <video class='videoPlayer col-md-4 col-md-offset-4' controls>
+      <source [src]='trainingFilm.videoUrl' type='video/mp4'>
+    </video>
+  </div>
 </div>
-
-<video class='videoPlayer' controls>
-	<source [src]='trainingFilm.videoUrl' type='video/mp4'>
-</video>

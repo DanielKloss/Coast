@@ -2,6 +2,18 @@ img{
     height:100px;
 }
 
+.top-buffer{
+    margin-top: 20px;
+}
+
+.small-top-buffer{
+    margin-top: 10px;
+}
+
+.bottom-buffer{
+    margin-bottom: 20px;
+}
+
 .text{
     display:inline;
     font-family: Corbel;

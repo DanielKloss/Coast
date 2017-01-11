@@ -36,7 +36,7 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             welcome_component_1.WelcomeComponent,
             trainingFilm_list_component_1.TrainingFilmListComponent,
-            trainingFilm_detail_component_1.TrainingFilmDetailComponent,
+            trainingFilm_detail_component_1.TrainingFilmDetailComponent
         ],
         bootstrap: [
             app_component_1.AppComponent

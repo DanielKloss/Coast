@@ -23,7 +23,7 @@ import { TrainingFilmDetailComponent }  from './trainingFilms/trainingFilm-detai
      AppComponent,
      WelcomeComponent,
      TrainingFilmListComponent,
-     TrainingFilmDetailComponent,
+     TrainingFilmDetailComponent
   ],
   bootstrap: 
   [
